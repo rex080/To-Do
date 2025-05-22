@@ -1,0 +1,140 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #da9797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: auto;
+    padding-bottom: 70px;
+    width: 500px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.container h3{
+    margin-right: 250px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #da9797;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cover{
+    margin-top: 8px;
+}
+.cover input{
+    color: #333;
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Add_btn{
+    background-color: #da9797;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+.Remove_btn{
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+.Add_btn:hover{
+    background-color: #c27070;
+}
+
+.inputspan {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #3f3d3d;
+}
+
+.item_container div {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 5px 8px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.item_container span {
+    flex-grow: 1; 
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.item_container div {
+    gap: 5px;
+    padding: 5px;
+}
+
+.Remove_btn {
+    width: 60px;
+    height: 35px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-top: 30%;
+        padding: 20px 10px 70px 10px;
+    }
+
+    .container h3 {
+        margin-right: 0;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .cover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cover input {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .Add_btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .Remove_btn {
+    margin-top: 0;           
+    margin-left: 0;          
+    width: 70px;
+    font-size: 1rem;
+    }
+
+}
